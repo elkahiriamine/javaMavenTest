@@ -1,27 +1,14 @@
 package model;
 
-public class Student {
+public class Student extends Person{
 
-    private String firstName;
-    private String lastName;
+    private String CNE;
 
-    private String address;
-    
-    private int age;
-
-    public String getFirstName() {
-        return firstName;
+    public String getCNE() {
+        return CNE;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public void setCNE(String CNE) {
+        this.CNE = CNE;
     }
 }
