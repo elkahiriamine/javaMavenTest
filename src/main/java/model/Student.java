@@ -5,6 +5,10 @@ public class Student {
     private String firstName;
     private String lastName;
 
+    private String address;
+    
+    private int age;
+
     public String getFirstName() {
         return firstName;
     }
